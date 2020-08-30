@@ -1,0 +1,231 @@
+  <html>
+  <head>
+    <title>Ellawala & Das Holdings (Pvt) Ltd.</title>
+    <link rel = "icon" href =  
+        "https://assets.codepen.io/4025444/logo+%281%29.png" 
+                type = "image/x-icon"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+</head>
+
+<body onload="carousel()">
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#home"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+              <li><a href="#about"><i class="fa fa-id-card"></i>&nbsp;About Us</a></li>
+                <li><a href="#project" style="display:none;"><i class="fa fa-briefcase"></i>&nbsp;Projects</a></li>
+              
+                <li><a href="#BOD"><i class="fa fa-users"></i>&nbsp;Board of Directors</a></li>
+               
+              <li><a href="#contact"><i class="fa fa-phone-square"></i>&nbsp;Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+  <div class="row" style="padding-bottom:0;margin-bottom:0">
+  <div class="col-md-12" style="padding-bottom:0;margin-bottom:0">
+  <div id="home" style="padding-bottom:0;margin-bottom:0">
+    
+     <div id="logoDiv" class="col-md-12">
+         <img class="img-responsive"src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/logo-with-text+%281%29.png" style="width:500px;height:100px"/>
+     </div>
+    
+    <div class="row">
+    <div id="slideDiv" style="padding:5px;margin:5px;">
+           
+<div class="slideshow-container">
+
+<div class="mySlides">  
+ <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/SolarPanel.jpg" style="width:100%;height:450px"  ></img>
+</div>
+
+<div class="mySlides"> 
+  <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/railway-tracks.jpg" style="width:100%; height:450px" />  
+</div>
+
+<div class="mySlides">  
+  <img class="img-responsive"  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/ElectricFencing.jpg" style="width:100%; height:450px"/>  
+</div>
+      
+<div class="mySlides"> 
+  <img class="img-responsive"  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/bridge.jpg" style="width:100%; height:450px"/>
+</div>
+
+ <div class="mySlides"> 
+  <img class="img-responsive"  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/Roads.jpg" style="width:100%; height:450px"/>
+</div>
+   
+<div class="mySlides">  
+ <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/bridge.webp" style="width:100%;height:450px"  ></img>
+</div>
+
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+   <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+</div>
+
+  </div>
+    </div>
+  </div>
+  
+  <div class="row" id="about" >
+  <div class="col-md-12">
+ 
+     <div class="col-md-4" style="background-color:#5c9f60;color:white;height:200px;">
+      <center>
+     <h3 style=" font-family:'Brush Script MT'"> 
+     Nature
+      </h3>
+        <h4 style=" font-family:'Monotype Corsiva'; font-size:25px;">"Look deep into the nature and then you will unerstand everything better "
+          </br>
+        </br>-Albert Einstein</h4>
+      </center>
+    </div>
+    
+     <div class="col-md-4"  style="background-color:#6c6c6c;color:white;height:200px;">
+       <center>
+       <h3 style=" font-family:'Brush Script MT'">
+         Technology
+       </h3>
+         <h4 style=" font-family:'Monotype Corsiva'; font-size:25px;">"Technology is the best when it brings people together"</br>
+          </br>
+        </br>-Matt Mullenweg</h4>
+       </center>
+    </div>
+
+ <div class="col-md-4"  style="background-color:#119ed1;color:white;height:200px;">
+          <center>
+       <h3 style=" font-family:'Brush Script MT';">
+         Innovation
+       </h3>
+ 
+         <h4 style=" font-family:'Monotype Corsiva'; font-size:25px;">"Innovation distingueshes between a leader and a follower"</br>
+          </br>
+        </br>-Steve Jobs</h4>
+       </center>
+    </div>
+
+    </div>
+    </div>
+
+
+  
+
+    <div class="row">
+  <div class="col-md-12">
+    
+  <div class="divs">
+    <center> <h1 class="headInfo">Welome to Ellawala & Das Holdings (Pvt) Ltd.</h1></center>
+    <p>Ellawala & Das Holdings (Pvt) Ltd is one of the promising companies which specializes in doing humanitarian projects for the developments and uplifting of a country keeping a close supervision on the needs of her people and nature. 
+    </br>
+    </br>
+      Pertaining to the fact that the Company is standing on <I>"Three Solid Pilars - Nature, Technology and Innovation"</I>, our vision is to keep a balance and harmony between nature and innovation without disturbing the ecology by any means. With cutting edge technological advancements we aim to deliver the best technology as per requirement so that the nature is not compromised.
+</br>
+</br>
+Our mission is to bring innovation ‘with the nature’ and ‘for the nature’. Sri Lanka is a beautiful island country with a diverse flora and fauna. We aim to preserve our natural & cultural heritage, our wildlife and our people. 
+</br></br/>
+We also bring investments to the Governments on humaniterian grounds to facilitate the needs of the developing countries to initiate more and more development projects.
+</p>
+</div>
+</div>
+</div>
+ 
+<div class="row">
+  <div class="col-md-12">
+  <div class="divs" id="projects" style="display:none;">
+    <center><h1 class="headInfo">Proposed Projects</h1>
+      </center>
+      </div>
+  </div>
+</div>
+     
+<div class="row"  id="BOD">
+  <div class="col-md-12">
+    <div class="divs">
+      <center><h1 class="headInfo">Board of Directors</h1></center>
+      <div class="row" style="border-bottom-style:solid; border-width:3px; border-color:#1B5E20;padding-bottom:5px">
+      <div class="col-md-8">
+        <h2 style="color:#1B5E20; font-size:23px; font-weight:bold; padding-left:20px;border-bottom-style:solid; border-width:2px; border-color:#6c6c6c" >Mr. Dilshan Castus Rukmal Ellawala</h2>
+        <p>Mr. Dilshan is having 15 years of experience in handling businesses. He has worked in various industries such as Garments, Freight-Forwarding, Shipping and Logistics, Exports and Imports, Real-Estate and Construction.
+</br>
+        </br>
+He has experienced skills in Operations, Client Handling, Marketing and Human-Resource Management. He is extremely efficient in working with global clients.
+        </br>
+       </br>
+We are extremely proud of having Mr. Dilshan on Board.
+</p>
+        </div>
+      <div class="col-md-4" >
+        <center><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/Dilshan.jpg" style="height:300px;width:300px"/></center>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+      <div class="col-md-4" style="padding-left:30px;"><center>
+       <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4025444/Sisira.jpg" style="height:300px;width:300px"/></center>
+        </div>
+      <div class="col-md-8">
+        <h2 style="color:#1B5E20; font-size:23px; font-weight:bold; padding-left:15px;border-bottom-style:solid;border-width:2px; border-color:#6c6c6c;" >Mr. A. G. C. S. Sisira Kumara Yatawara</h2>
+          <p>Mr. Sisira is specialized in Agricultural Science. He has great understanding of Tele-Communications, Environment and Ecology. 
+</br>
+        </br>
+Mr. Sisira is also a Social Activist and involved in various non-Profit, charitable and welfare projects.
+        </br>
+       </br>
+Mr. Sisira is definitely an important member in our Board.
+</p>
+        </div>
+      </div>
+      
+</div>
+</div>
+</div>
+
+<div class="row" id="contact">
+  <div class="col-md-12">
+      <div  class="divs">  <center><h1 class="headInfo">Reach Us</h1>
+        <p><i class="fa fa-envelope" style="color:#2962FF" ></i>&nbsp;&nbsp;ellawaladilshan@gmail.com&nbsp;&nbsp;<i class="fab fa-whatsapp-square" style="color:green;" ></i>&nbsp;&nbsp;+94 770612621 &nbsp;&nbsp;<i class="fas fa-phone"></i>&nbsp;&nbsp;+94 770612621 / +91 8340623045</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.270727188107!2d79.89989122916249!3d6.880670831135356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b811941e4c3%3A0x143d44d6d9a8686a!2sEllawala%20%26%20Das%20Holdings%20(Pvt)%20Ltd!5e0!3m2!1sen!2sin!4v1589876663649!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </center></div>
+
+</div>
+</div>
+  </body>
+
+</html>
